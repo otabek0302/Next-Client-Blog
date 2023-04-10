@@ -1,0 +1,246 @@
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  background: #EEF5FF;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.post_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+
+.post {
+  width: 350px;
+  height: 270px;
+  border-radius: 15px;
+  margin-top: 50px;
+  position: relative;
+  cursor: pointer;
+  background-color: lightgreen;
+
+}
+
+.post:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.post_title {
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 15px 20px;
+  position: absolute;
+  left: 0;
+  right: O;
+  bottom: 0;
+  color: #3260A1;
+  background-color: #ffffff;
+  border-radius: 0 0 15px 15px;
+}
+
+.header {
+  background: #fff;
+  padding: 17px 0;
+}
+
+.nav {
+  position: relative;
+}
+
+.logo {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #3260a1;
+}
+
+.add_btn {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #67bfff;
+  box-shadow: 0px 10px 25px rgba(148, 174, 213, 0.15);
+  border-radius: 10px;
+  position: absolute;
+  width: 140px;
+  height: 30px;
+  left: 50%;
+  top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%);
+  cursor: pointer;
+}
+
+/* App Post */
+.back_post {
+  background-color: #ffffff;
+  box-shadow: 0px 10px 25px rgba(148, 174, 213, 0.15);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3260A1;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 30px;
+  outline: none;
+  height: 45px;
+  width: 120px;
+  text-decoration: none;
+}
+
+.back_post:hover {
+  box-shadow: 0px 10px 25px rgba(146, 170, 213, 1);
+  transition: .3s ease;
+}
+
+.formWrappper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background: #FFFFFF;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.inputField input[type="text"] {
+  width: 100%;
+  display: flex;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px 15px;
+}
+
+.inputField textarea {
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-height: 150px;
+  resize: none;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
+.label {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #222222;
+  margin-bottom: 5px;
+}
+
+.form_btn {
+  width: 139px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #FFFFFF;
+  background: #67BFFF;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 auto;
+  box-shadow: Opx 10px 25px rgba (148, 174, 213, 0.15);
+  border-radius: 10px;
+}
+
+/* Post */
+.postWrappper {
+  display: flex;
+  background-color: #E5E5E5;
+  border-radius: 15px;
+  padding: 35px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.postItem {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+  justify-content: center;
+  padding: 35px;
+}
+
+.postItem img {
+  width: 100%;
+}
+
+.postTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #3260A1;
+  margin-bottom: 25px;
+}
+
+.postText {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-align: justify;
+}
+
+.removePostBtn {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #E85050;
+  box-shadow: 0px 10px 25px rgba(148, 174, 213, 0.15);
+  border-radius: 10px;
+  position: absolute;
+  width: 140px;
+  height: 30px;
+  left: 50%;
+  bottom: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%);
+  cursor: pointer;
+}
